@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+@font-face {
+    font-family: myFont;
+    src: url(rwby_style.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(19,18,22);
+    padding-left: 30px;
+    height: 70px;
+}
+
+.nav-items{
+    display: flex;
+    padding-left: 20px;
+    font-family: myFont;
+    list-style: none;
+}
+
+.nav-items li{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.logo img{
+    height: 50px;
+    padding-top: 10px;
+}
+
+.logo .logo-text{
+    padding-top: 10px;
+}
+
+
+
+.trailer-box{
+    display: flex;
+}
+
+.title-welcome{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.box-1{
+    position: relative;
+    height: 1080px;
+    width: 1080px;
+}
+
+.box-1 img{
+    position: absolute;
+    transition: 200ms;
+}
+
+.box-1 img:hover{
+    opacity: 0;
+}
+
+.news-box{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.new{
+    background-color: rgb(39,39,38);
+    color: white;
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.new img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;}
+
+.new-title{
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.new-desc{
+    font-size: 18px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .news-box{
+    background-color: rgb(39,39,38);
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+}
+
+.news{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.news-box h1{
+    color: white;
+    margin-left: 2em;
+    font-size: 40px;
+}
+
+.news-box img{
+    height: 400px;
+    width: 400px;
+} */
+
+
+/* .box-1:hover{
+    transform: scale(1.1);
+} */
+
+h2{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+footer p{
+    color: white;
+}
